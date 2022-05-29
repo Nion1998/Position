@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Moon+Dance&family=Open+Sans:ital,wght@0,500;0,800;1,800&family=Oswald:wght@300;400;700&family=Roboto:ital,wght@0,700;1,400;1,900&family=Smooch&family=Ubuntu:wght@700&display=swap');
-section{
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Lato:wght@700&family=Moon+Dance&family=Open+Sans:ital,wght@0,500;0,800;1,800&family=Oswald:wght@300;400;700&family=Roboto:ital,wght@0,700;1,400;1,900&family=Smooch&family=Ubuntu:wght@700&display=swap');body{
     padding: 0% 3% 0% 3%;
     font-family: 'Roboto', sans-serif;
 }
@@ -37,15 +37,49 @@ h2{
 }
 .text-box p{
     font-size: 20px;
-    color: rgb(101, 98, 98);
-    position:calc(15);
-    
+    color: rgb(101, 98, 98);    
+}
+.section_2{
+    padding: 1% 2% 5% 2% ;
+    display: flex;
+    justify-content: ;
+    display: flex;
+    align-items: center;
+}
+.section_2 img{
+    height: 80vh;
+    width: 60%;
+    border-radius: 1%; 
+}
+.section_2 .text-box{
+    padding:  3% 2% 7% 3%;
+    background-color: rgb(141, 141, 215);
+    color: rgb(248, 249, 250);
+}
+.section_2 .text-box p{
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.section_2 .text-box h1{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2;
+}
+.new1{
+    border: 1px solid rgb(255, 255, 255);
+    width: 500px;
+
+}
+.text-box_2{
+    right: 6%;
 }
 
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 542px) {
     .row{
-        display: block;
-           
+        display: block;     
     }
     .row img{
         height: 25vh;     
@@ -66,11 +100,13 @@ h2{
         display: flex;
         justify-content: center;
         font-size: 20px
+        font-family: 'Smooch', cursive;
         
     }
     .text-box p{
         font-size: 12px;
         color: rgb(101, 98, 98);
+        text-align: justify;
         
     }
 }
