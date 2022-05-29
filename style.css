@@ -109,4 +109,29 @@ h2{
         text-align: justify;
         
     }
+    
+    .section_2 img{
+        height: 25vh;
+        width: 60%;
+        border-radius: 1%; 
+    }
+    .section_2 .text-box p{
+        font-size: 7px;
+       
+    }
+    .section_2 .text-box h1{
+        font-size: 10px;
+    }
+    .section_2 .text-box h3{
+        font-size: 8px;
+        
+    }
+    .text-box_2{
+        right: 6%;
+        top: 5px;
+    }
+    .text-box_1{
+        top: -5px;
+    }
+    
 }
